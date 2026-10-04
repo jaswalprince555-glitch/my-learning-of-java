@@ -1,18 +1,33 @@
-## Getting Started
+# 🆔 Java CLI Profile Card
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is my very first Java project! It is a simple command-line application that takes three pieces of personal information from the terminal and generates a formatted Engineer ID Card. 
 
-## Folder Structure
+I built this project to understand how Java interacts with the computer's terminal and how data is passed into a program before it even starts running.
 
-The workspace contains two folders by default, where:
+## 🧠 What I Learned (The Core Concepts)
+If you are looking at this code, here are the main concepts I used to build it:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* **Command-Line Arguments (`String[] args`):** In Java, `args` acts like a set of empty boxes. When a user types extra words in the terminal after running the program, Java automatically places those words into these boxes (`args[0]`, `args[1]`, `args[2]`). 
+* **String Concatenation:** I learned how to use the `+` symbol to glue normal text (like `"Name: "`) together with the dynamic variables stored in the array boxes.
+* **The Compilation Process:** I learned that computers cannot read `.java` files directly. I used the `javac` command to translate my human-readable code into a `.class` file (bytecode) so the computer's processor could understand it.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🚀 How to Run the Program
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+**Step 1: Open the terminal**
+Make sure your terminal is navigated inside the `src` folder where the code lives.
 
-## Dependency Management
+**Step 2: Compile the code**
+Type this command to translate the code into bytecode:
+```bash
+javac ProfileCard.java
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+java ProfileCard Prince 2027 Software_Engineer
+
+expected output 
+=============================
+     ENGINEER PROFILE ID     
+=============================
+Name: Prince
+Target Year: 2027
+Primary Mission: Software_Engineer
+=============================
