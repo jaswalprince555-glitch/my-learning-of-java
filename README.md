@@ -9,8 +9,7 @@ String Concatenation: Uses the + operator to dynamically stitch raw variable dat
 
 
  HOW THE CODE LOOK LIKE AFTER WE RUN THE CODE 
-
-
+~~~
 === SPACESHIP DIAGNOSTICS ===
 Engines: 4
 Fuel: 98.5%
@@ -18,4 +17,4 @@ Distance: 15000000000 miles
 Status: Launch Ready? true
 Rank: A
 Boosted Speed: 599
-
+~~~
