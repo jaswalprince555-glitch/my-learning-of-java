@@ -1,4 +1,6 @@
 Add MissionControl for Java memory allocation and type casting
+
+\
 What this code does:
 A terminal-based program that stores and prints a spaceship's flight data (engines, fuel, distance, rank, and launch status) by selecting the most precise data types available in Java.
 Key Concepts Applied:
